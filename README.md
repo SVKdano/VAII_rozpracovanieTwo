@@ -1,0 +1,2 @@
+# VAII_rozpracovanieTwo
+Rozpracovanie2
