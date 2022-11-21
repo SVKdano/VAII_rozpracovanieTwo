@@ -18,6 +18,7 @@ class TeamsController extends AControllerBase
     public function delete() : Response {
         $id = $this->request()->getValue('id');
 
+
         $teamToBeDeleted = Team::getOne($id);
 
         if ($teamToBeDeleted) {

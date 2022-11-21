@@ -15,6 +15,7 @@ class Team extends Model
      */
     public function getId()
     {
+
         return $this->id;
     }
 
