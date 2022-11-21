@@ -29,7 +29,9 @@ class TeamsController extends AControllerBase
     }
 
     public function store() : Response {
-        $team = new Team();
+        $id = $this->request()->getValue('id');
+
+        $team = ( $id ? Team::getOne($id) : new Team());
 
         $team->setTeamName($this->request()->getValue('teamName'));
         $team->setLeague($this->request()->getValue('league'));
@@ -40,6 +42,12 @@ class TeamsController extends AControllerBase
     }
 
     public function create() : Response {
-        return $this->html(viewName: 'create.form');
+        return $this->html(new Team(), 'create.form');
+    }
+
+    public function edit() {
+        $id = $this->request()->getValue('id');
+        $teamToEdit = Team::getOne($id);
+        return $this->html($teamToEdit, viewName: 'create.form');
     }
 }
