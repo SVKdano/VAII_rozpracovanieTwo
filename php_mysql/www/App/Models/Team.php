@@ -6,24 +6,24 @@ use App\Core\Model;
 
 class Team extends Model
 {
-    protected $idTeam;
+    protected $id;
     protected $teamName;
     protected $league;
 
     /**
      * @return mixed
      */
-    public function getIdTeam()
+    public function getId()
     {
-        return $this->idTeam;
+        return $this->id;
     }
 
     /**
-     * @param mixed $idTeam
+     * @param mixed $id
      */
-    public function setIdTeam($idTeam): void
+    public function setIdTeam($id): void
     {
-        $this->idTeam = $idTeam;
+        $this->id = $id;
     }
 
     /**

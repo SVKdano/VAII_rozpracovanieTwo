@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6b56c3f7-ad29-42ee-a653-dd601d3121d7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/root.layout.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/root.layout.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/styl.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/vaiicko_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/TeamsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/TeamsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Models/Team.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/Team.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/Teams/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/Teams/index.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,11 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="1e42b8e8-e45f-4b84-9e33-96273747a0d5" name="localhost" />
+    </servers>
   </component>
   <component name="ProjectId" id="2HrfwkhaWW599PZrkv98dFqLDpg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -52,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669048365272</updated>
       <workItem from="1669048367965" duration="1472000" />
-      <workItem from="1669050081167" duration="1689000" />
+      <workItem from="1669050081167" duration="5724000" />
     </task>
     <servers />
   </component>
