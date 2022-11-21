@@ -11,7 +11,7 @@
         Názov tímu:
         <input type="text" name="teamName" value="<?php echo $data->getTeamName()?>" onchange="validateTeamName()">
         Liga:
-        <input type="number" name="league" value="<?php echo $data->getLeague()?>">
+        <input type="number" name="league" value="<?php echo $data->getLeague()?>" onchange="validateLeague()">
     </label>
-    <input type="submit" value="Pridaj">
+    <input type="submit" value="Pridaj" onsubmit="validateAll()">
 </form>
