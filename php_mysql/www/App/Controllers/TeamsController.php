@@ -27,4 +27,19 @@ class TeamsController extends AControllerBase
 
         return $this->redirect("?c=teams");
     }
+
+    public function store() : Response {
+        $team = new Team();
+
+        $team->setTeamName($this->request()->getValue('teamName'));
+        $team->setLeague($this->request()->getValue('league'));
+
+        $team->save();
+
+        return $this->redirect("?c=teams");
+    }
+
+    public function create() : Response {
+        return $this->html(viewName: 'create.form');
+    }
 }

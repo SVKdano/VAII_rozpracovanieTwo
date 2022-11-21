@@ -1,3 +1,7 @@
+<div>
+
+    <a href="?c=teams&a=create" class="btn btn-primary">Pridaj team</a>
+</div>
 <div class="table-responsive">
     <table class="table">
     <thead>
