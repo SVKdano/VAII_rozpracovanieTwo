@@ -1,7 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: Monaco;
+}
+
+.hlavicka {
+    background-color: rgba(252, 48, 48, 0.77);
+    color: #4e4e4e;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left img {
+    max-width: 4rem;
+    float: left;
+}
+
+.right img {
+    max-width: 4rem;
+    float: right;
+}
+
 .navbar {
     border-bottom: 1px solid grey;
 }
 
 .navbar-brand img {
     width: 50px;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: rgba(199, 65, 65, 0.82);
 }

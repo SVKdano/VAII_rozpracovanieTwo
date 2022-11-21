@@ -18,10 +18,22 @@
     <script src="public/js/script.js"></script>
 </head>
 <body>
+<div class="hlavicka">
+    <div class="left">
+        <img src="public/images/PBErb.png" alt="">
+    </div>
+
+    <h1>Infoweb OSTZ Považská Bystrica</h1>
+
+    <div class="right">
+        <img src="public/images/raketa.png" alt="">
+    </div>
+</div>
+
 <nav class="navbar navbar-expand-sm bg-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="?c=home">
-            <img src="public/images/vaiicko_logo.png" title="<?= \App\Config\Configuration::APP_NAME ?>"
+            <img src="public/images/PBErb.png" title="<?= \App\Config\Configuration::APP_NAME ?>"
                  title="<?= \App\Config\Configuration::APP_NAME ?>">
         </a>
         <ul class="navbar-nav me-auto">
@@ -50,5 +62,27 @@
         <?= $contentHTML ?>
     </div>
 </div>
+
+<footer>
+    <h3>
+        Ostatné informácie
+    </h3>
+
+    <div>
+        Telefónny kontakt: +421 911 111 111
+    </div>
+
+    <div>
+        Email: example@example.com
+    </div>
+
+    <div>
+        Adresa: Veľký Manín, 017 05 Považská Bystrica
+    </div>
+
+    <div>
+        Poloha: 49.12530842601488, 18.49587621533024
+    </div>
+</footer>
 </body>
 </html>
