@@ -1,6 +1,6 @@
 <script src="public/js/script.js"></script>
 
-<form method="post" action="?c=teams&a=store" name="formName">
+<form method="post" action="?c=teams&a=store" name="formName" onsubmit="return validateAll()">
 
     <?php /** @var \App\Models\Team $data */
     if ($data->getId()) { ?>
@@ -13,5 +13,5 @@
         Liga:
         <input type="number" name="league" value="<?php echo $data->getLeague()?>" onchange="validateLeague()">
     </label>
-    <input type="submit" value="Pridaj" onsubmit="validateAll()">
+    <input type="submit" value="Pridaj">
 </form>

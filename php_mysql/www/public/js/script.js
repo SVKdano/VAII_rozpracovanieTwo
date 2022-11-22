@@ -1,7 +1,7 @@
 function validateTeamName() {
     let teamName = document.forms['formName']['teamName'].value;
 
-    if (!teamName.match("^[A-Za-z]")) {
+    if (!teamName.match("^[A-Za-z]") || teamName === "" ) {
         alert("Zle meno timu");
         return false;
     }
@@ -19,8 +19,11 @@ function validateLeague() {
 }
 
 function validateAll() {
-    if (!(validateLeague() && validateTeamName()))
+    if ((validateLeague() === false || validateTeamName() === false))
     {
         alert ("Chybne vyplnene pole");
+        return false;
     }
+
+    return true;
 }
