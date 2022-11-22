@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b56c3f7-ad29-42ee-a653-dd601d3121d7" name="Changes" comment="">
+    <list default="true" id="6b56c3f7-ad29-42ee-a653-dd601d3121d7" name="Changes" comment="Server site checks done">
+      <change beforePath="$PROJECT_DIR$/../db/DESKTOP-HE6FCAT.pid" beforeDir="false" afterPath="$PROJECT_DIR$/../db/DESKTOP-HE6FCAT.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db/ddl_recovery.log" beforeDir="false" afterPath="$PROJECT_DIR$/../db/ddl_recovery.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../db/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controllers/TeamsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/TeamsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Models/Team.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/Team.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Views/Teams/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/Teams/index.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +58,76 @@
       <option name="presentableId" value="Default" />
       <updated>1669048365272</updated>
       <workItem from="1669048367965" duration="1472000" />
-      <workItem from="1669050081167" duration="5724000" />
+      <workItem from="1669050081167" duration="6795000" />
+      <workItem from="1669057195975" duration="621000" />
+      <workItem from="1669057839124" duration="18000" />
+      <workItem from="1669057946069" duration="8668000" />
+      <workItem from="1669108090208" duration="7233000" />
     </task>
+    <task id="LOCAL-00001" summary="try">
+      <created>1669056672653</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669056672653</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create operation done">
+      <created>1669059018298</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669059018298</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Edit operation done">
+      <created>1669061200090</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669061200090</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Validate team name">
+      <created>1669066512928</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669066512928</updated>
+    </task>
+    <task id="LOCAL-00005" summary="GN commit">
+      <created>1669067571933</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669067571933</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixed js">
+      <created>1669109519627</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669109519627</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixed fix">
+      <created>1669110663002</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669110663002</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Check teamName does not contains digit">
+      <created>1669111433652</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669111433652</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Server site checks done">
+      <created>1669115537489</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669115537489</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,5 +143,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="try" />
+    <MESSAGE value="Create operation done" />
+    <MESSAGE value="Edit operation done" />
+    <MESSAGE value="Validate team name" />
+    <MESSAGE value="GN commit" />
+    <MESSAGE value="Fixed js" />
+    <MESSAGE value="Fixed fix" />
+    <MESSAGE value="Check teamName does not contains digit" />
+    <MESSAGE value="Server site checks done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server site checks done" />
   </component>
 </project>
