@@ -13,5 +13,5 @@
         Liga:
         <input type="number" name="league" value="<?php echo $data->getLeague()?>" onchange="validateLeague()">
     </label>
-    <input type="submit" value="Pridaj">
+    <input type="submit" value="Submit">
 </form>

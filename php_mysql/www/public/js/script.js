@@ -1,7 +1,7 @@
 function validateTeamName() {
     let teamName = document.forms['formName']['teamName'].value;
 
-    if (!teamName.match("^[A-Za-z]") || teamName === "" ) {
+    if (!teamName.match("{0-9}") || teamName === "" ) {
         alert("Zle meno timu");
         return false;
     }
