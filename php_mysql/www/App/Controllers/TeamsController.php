@@ -36,9 +36,24 @@ class TeamsController extends AControllerBase
         $team->setTeamName($this->request()->getValue('teamName'));
         $team->setLeague($this->request()->getValue('league'));
 
-        $team->save();
+        $data = $this->request()->getPost();
 
-        return $this->redirect("?c=teams");
+        $dataTeamName = $data["teamName"];
+        $dataLeague = $data["league"];
+
+        if (preg_match("/\d+/", $dataTeamName))
+        {
+            $error = "Nespravne vyplnene pole nazov";
+            echo "<br><div> $error </div>";
+        }
+        else if ($dataLeague < 5 || $dataLeague > 7) {
+            $error = "Nespravne vyplnene pole liga";
+            echo "<br><div>$error</div>";
+        } else {
+            $team->save();
+            return $this->redirect("?c=teams");
+        }
+        return $this->html($team, "create.form");
     }
 
     public function create() : Response {
